@@ -43,4 +43,14 @@ body{
        justify-content: center;
        align-items: center;
    }
+   .time span:not(:last-child)
+   {
+       position: relative;
+       margin: 0 6px;
+       font-size: 600;
+       text-align: center;
+       letter-spacing: 3px;
+
+   } 
+
 
