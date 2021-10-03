@@ -25,3 +25,14 @@ function updateClock(){
         var weeks = ["Sunday","Monday","tuesday","Wednesday",'Thursday',"Friday","Saturday"];
         var ids = ["dayname","month","Daynum","year","hour","minute","scond","period"];
         var values = [weeks[dname],months[mo],dnum.pad(2),yr,hou.pad(2),min.pad(2),sec.pad(2),pe ]
+
+
+        for(var i=0;i<ids.length; i++)
+        {
+            document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+        }
+
+
+
+
+}   
