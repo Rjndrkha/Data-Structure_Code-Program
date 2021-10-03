@@ -36,3 +36,11 @@ body{
     text-align: center;
     letter-spacing: 3px;
 }
+.time
+   {
+       font-size: 60px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
