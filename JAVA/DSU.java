@@ -61,7 +61,7 @@ public class DSU{
         // 3 is a friend of 1 
         dsu.union(3, 1); 
   
-        // Check if 4 is a friend of 0 
+        // Check if 4 is a friend of 0
         if (dsu.find(4) == dsu.find(0)) 
             System.out.println("Yes"); 
         else
