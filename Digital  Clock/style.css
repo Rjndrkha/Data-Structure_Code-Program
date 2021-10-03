@@ -12,3 +12,14 @@ body{
     background-color: #10101E;
 
 }
+.datetime{
+    color: #fff;
+    background:#10101E;
+    font-family: "Segoe UI", sans-serif;
+    width: 340px;
+    padding: 15px 10px;
+    border: 3px solid #2E94E3;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(225,225,225,0.1));
+    transition: 0.5s;
+    transition-property:  box-shadow;
+}
