@@ -16,3 +16,7 @@ function updateClock(){
             hou = hou - 12;
             pe = "PM";
         }
+        Number.prototype.pad=function(digit){
+            for(var n = this.toString(); n.length < digit; n = 0 + n );
+            return n;
+        }
