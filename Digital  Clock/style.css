@@ -23,3 +23,10 @@ body{
     transition: 0.5s;
     transition-property:  box-shadow;
 }
+.datetime:hover{
+    background:#2E94E3 ;
+    box-shadow: 0 0 30px #2E94E3;
+    transition: 0.9s ;
+
+
+} 
