@@ -1,0 +1,52 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public int maxPathSum(TreeNode root) {
+       
+        HashMap<TreeNode,Integer> map=new HashMap<>();
+        Stack<TreeNode> st=postorder(root);
+        int left=0;
+        int right=0;
+        int max=Integer.MIN_VALUE;
+        while(!st.isEmpty()){
+            TreeNode curr=st.pop();
+            left=0;
+            if(curr.left!=null)
+                left=Math.max(left,map.get(curr.left));
+            right=0;
+            if(curr.right!=null)
+                right=Math.max(right,map.get(curr.right));
+            max=Math.max(max,curr.val+left+right);
+            map.put(curr,curr.val+Math.max(left,right));
+        }
+        return max;
+    }
+    public Stack<TreeNode> postorder(TreeNode root){
+        Stack<TreeNode> ans=new Stack<>();
+        Stack<TreeNode> s=new Stack<>();
+        s.push(root);
+        while(!s.isEmpty()){
+            TreeNode curr=s.pop();
+            ans.push(curr);
+            if(curr.right!=null)
+                s.push(curr.right);
+            if(curr.left!=null)
+                s.push(curr.left);
+            
+        }
+        return ans;
+    }
+}
