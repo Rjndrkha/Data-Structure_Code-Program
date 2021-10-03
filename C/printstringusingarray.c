@@ -15,3 +15,6 @@ void main()
 	char tabnine [30]="welcome";
 	print(tabnine);
 }
+
+OUTPUT:
+welcome
