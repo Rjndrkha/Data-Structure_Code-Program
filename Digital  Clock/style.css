@@ -30,3 +30,9 @@ body{
 
 
 } 
+.date{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
