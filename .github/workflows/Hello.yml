@@ -1,0 +1,6 @@
+steps:
+- uses: actions/first-interaction@v1
+  with:
+    repo-token: ${{ secrets.GH_TOKEN }}
+    issue-message: '# Message with markdown.\nThis is the message that will be displayed on users' ThankYou For Contributing'
+    pr-message: 'Message that will be displayed on users' DONT FORGET TO STAR THIS PROJECT!! :) '
