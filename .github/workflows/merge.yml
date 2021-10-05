@@ -1,4 +1,6 @@
 name: Merge me!
+uses: ridedott/merge-me-action@v2.8.35
+
 
 on:
   workflow_run:
