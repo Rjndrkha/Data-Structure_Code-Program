@@ -70,7 +70,7 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
       
-      name: Starring Partner
+    -name: Starring Partner
 on:
   issues:
     types: [opened, reopened]
