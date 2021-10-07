@@ -1,0 +1,57 @@
+// CPP program to check whether there
+// exist at least k or not in range [2..n]
+#include <bits/stdc++.h>
+using namespace std;
+
+vector<int> primes;
+
+// Generating all the prime numbers
+// from 2 to n.
+void SieveofEratosthenes(int n)
+{
+	bool visited[n];
+	for (int i = 2; i <= n + 1; i++)
+		if (!visited[i]) {
+			for (int j = i * i; j <= n + 1; j += i)
+				visited[j] = true;
+			primes.push_back(i);
+		}
+}
+
+bool specialPrimeNumbers(int n, int k)
+{
+	SieveofEratosthenes(n);
+	int count = 0;
+	for (int i = 0; i < primes.size(); i++) {
+		for (int j = 0; j < i - 1; j++) {
+
+			// If a prime number is Special prime
+			// number, then we increments the
+			// value of k.
+			if (primes[j] + primes[j + 1] + 1
+				== primes[i]) {
+				count++;
+				break;
+			}
+		}
+
+		// If at least k Special prime numbers
+		// are present, then we return 1.
+		// else we return 0 from outside of
+		// the outer loop.
+		if (count == k)
+			return true;
+	}
+	return false;
+}
+
+// Driver function
+int main()
+{
+	int n = 27, k = 2;
+	if (specialPrimeNumbers(n, k))
+		cout << "YES" << endl;
+	else
+		cout << "NO" << endl;
+	return 0;
+}
