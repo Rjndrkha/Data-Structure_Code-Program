@@ -1,6 +1,0 @@
-steps:
-- uses: actions/first-interaction@v1
-  with:
-    repo-token: ${{ secrets.GH_TOKEN }}
-    issue-message: '## DONT FORGET TO STAR THIS REPO !!'
-    pr-message: '## DONT FORGET TO STAR THIS REPO !!'
