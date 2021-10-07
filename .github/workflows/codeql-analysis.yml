@@ -12,13 +12,16 @@
 name: "CodeQL"
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [ main ]
+  pull_request_target:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - edited
   schedule:
     - cron: '5 * * * *'
+  
+  workflow_dispatch:
 
 jobs:
   analyze:
@@ -40,6 +43,13 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+      
+    - name: Please Star First
+      env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          uses: qxip/please-star-light@v3
+      with:
+          message: "Please star this repository to motivate developers! :star:"
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
