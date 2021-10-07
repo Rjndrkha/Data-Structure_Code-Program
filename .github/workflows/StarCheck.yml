@@ -26,10 +26,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-  
-      - name: Please Star First
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          uses: qxip/please-star-light@v3
         with:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           message: "Please star this repository to motivate developers! :star:"
