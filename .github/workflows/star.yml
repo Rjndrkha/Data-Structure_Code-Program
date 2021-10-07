@@ -1,14 +1,17 @@
-name: Starring Partner
+name: Summary
+
 on:
-  issues:
-    types: [opened, reopened]
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+
 jobs:
-  # This workflow checks if a user has starred a repository and takes actions
-  starcheck:
+  summary-check:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Please Star First
-      uses: qxip/please-star-light@v3
+      - uses: qxip/please-star-light@v3
       with:
         token: ${{ secrets.GH_TOKEN }}
         message: "Please star this repository to motivate developers! :star:"
