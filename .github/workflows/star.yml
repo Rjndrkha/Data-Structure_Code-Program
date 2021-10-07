@@ -11,7 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: qxip/please-star-light@v3
+      - name: Please Star Light
+        uses: QXIP/please-star-light@v3
+        
       with:
         token: ${{ secrets.GH_TOKEN }}
         message: "Please star this repository to motivate developers! :star:"
