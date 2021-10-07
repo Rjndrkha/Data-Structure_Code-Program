@@ -69,3 +69,20 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
+      
+      name: Starring Partner
+on:
+  issues:
+    types: [opened, reopened]
+jobs:
+  # This workflow checks if a user has starred a repository and takes actions
+  starcheck:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Please Star First
+      uses: qxip/please-star-light@v3
+      with:
+        token: ${{ secrets.GH_TOKEN }}
+        message: "Please star this repository or i will not merge! :star:"
+        # label: "stargazed"
+        # autoclose: true
