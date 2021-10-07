@@ -70,7 +70,9 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
       
-    - name: Starring Partner
+    - name: Please Star Light
+      uses: QXIP/please-star-light@v3
+
 on:
   issues:
     types: [opened, reopened]
