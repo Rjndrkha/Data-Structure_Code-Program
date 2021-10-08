@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="shortcut icon" type="image/jpg" href="fav-icon.png"/>
+    <!-- <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=google.com"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+<body>
+    <!-- https://pixabay.com/videos/download/video-5278_large.mp4?attachment -->
+    <!-- https://pixabay.com/videos/download/video-26475_small.mp4?attachment -->
+    <!-- rick-roll.mp4 -->
+    <!-- Player Container -->
+    <div class="player">
+        <video src="rick-roll.mp4" class="video" playsinline></video>
+        <!-- Show Controls -->
+        <div class="show-controls">
+            <!-- Controls Container -->
+            <div class="controls-container">
+                <!-- Progress Bar -->
+                <div class="progress-range" title="Seek">
+                    <div class="progress-bar"></div>
+                </div>
+                <!-- Controls Group -->
+                <div class="controls-group">
+                    <div class="controls-left">
+                        <!-- Play/Pause -->
+                        <div class="play-controls controls-element">
+                            <i class="fas fa-play" title="Play" id="play-btn"></i>
+                        </div>
+                        <!-- Volume -->
+                        <div class="volume">
+                            <div class="volume-icon controls-element">
+                                <i class="fas fa-volume-up" title="Mute" id="volume-icon"></i>
+                            </div>
+                            <div class="volume-range controls-element" title="Change Volume">
+                                <div class="volume-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="controls-right">
+                        <!-- Speed -->
+                        <div class="speed controls-element" title="Playback Speed">
+                            <select name="playbackSpeed" id="player-speed">
+                                <option value="0.5">0.5 x</option>
+                                <option value="0.75">0.75 x</option>
+                                <option value="1" selected>1 x</option>
+                                <option value="1.5">1.5 x</option>
+                                <option value="2">2 x</option>
+                            </select>
+                        </div>
+                        <!-- Time -->
+                        <div class="time controls-element">
+                            <span class="time-elapsed">00:00</span>
+                            <span>/</span>
+                            <span class="time-duration">00:00</span>
+                        </div>
+                        <!-- Fullscreen -->
+                        <div class="fullscreen controls-element">
+                            <i class="fas fa-expand" title="Enter Fullscreen" id="fullscreen-btn"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src = "script.js"></script>
+</body>
+</html>
