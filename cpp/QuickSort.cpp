@@ -1,6 +1,6 @@
 // Implementation of QuickSort in C++
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 
