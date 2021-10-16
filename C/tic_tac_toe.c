@@ -240,8 +240,8 @@ void Player_win()
                 return;
         }
         else if(pos_for_X[1][3]==1 && pos_for_X[2][2]==1 &&
-pos_for_X[3][1]==1)
-        {
+                  pos_for_X[3][1]==1)
+              {
                 win=1;
                 printf("\n\nRESULT: %s wins!!",name_X);
                 printf("\nPress any key.....");
