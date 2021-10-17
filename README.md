@@ -28,7 +28,7 @@
 ---
 
 ## 🔰 REWARD
-#### In Hacktoberfest 2021 You Can get free merchandise for $256 from DEV Shop
+#### ⚠ In Hacktoberfest 2021 You Can get free merchandise for $256 from DEV Shop
 
 ![Screenshot (81)](https://user-images.githubusercontent.com/75615789/137628333-673fed7c-9570-49b9-a49b-f7a99af70901.png)
 
