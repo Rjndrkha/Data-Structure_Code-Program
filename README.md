@@ -1,5 +1,8 @@
 ![image](https://user-images.githubusercontent.com/56723300/135698966-dc5c7d59-e8cf-4ffc-b0bf-a82009ad2187.png)
 
+[![CodeQL](https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/codeql-analysis.yml)
+[![Star validation](https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/StarCheck.yml/badge.svg)](https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/StarCheck.yml)
+
 **This repository will automatically assign the `hacktoberfest` and `hacktoberfest-accepted` labels to all submitted pull requests.**
 
 ---
