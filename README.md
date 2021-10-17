@@ -1,8 +1,26 @@
 ![image](https://user-images.githubusercontent.com/56723300/135698966-dc5c7d59-e8cf-4ffc-b0bf-a82009ad2187.png)
 
-[![CodeQL](https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/codeql-analysis.yml)
-[![Star validation](https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/StarCheck.yml/badge.svg)](https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/StarCheck.yml)
-
+<p align="center">
+  <a href="https://hacktoberfest.digitalocean.com/">
+    <img alt="GitHub Hacktoberfest combined status" 
+         src="https://img.shields.io/github/hacktoberfest/2021/Rjndrkha/Hacktober-Fest-2021?color=red&logo=R&style=for-the-badge">
+  </a>
+  <a href="https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/codeql-analysis.yml">
+    <img alt="codeql" src="https://img.shields.io/badge/codeql-PASSED-green?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/StarCheck.yml">
+    <img alt="star" src="https://img.shields.io/badge/starvalidation-PASSED-yellow?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://github.com/Rjndrkha/Hacktober-Fest-2021">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Rjndrkha/Hacktober-Fest-2021?color=blue&logo=GITHUB&style=for-the-badge">
+  </a>
+  <a href="https://github.com/Rjndrkha/Hacktober-Fest-2021">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Rjndrkha/Hacktober-Fest-2021?color=blue&label=CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge">
+  </a>
+  
+  
+  
+</p>
 **This repository will automatically assign the `hacktoberfest` and `hacktoberfest-accepted` labels to all submitted pull requests.**
 
 ---
