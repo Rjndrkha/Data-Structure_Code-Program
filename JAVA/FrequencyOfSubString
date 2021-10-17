@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class MainStr32
+{
+    static int countSubString(String st1,String st2)
+    {
+        char c1[]=st1.toCharArray();          //chitradurga is fort city in karnataka
+        char c2[]=st2.toCharArray();    
+    	int count=0;        		 // durga
+        for(int i=0;i<c1.length;i++)
+        {
+            int j=0,k=i;
+    	    while(j<c2.length&&k<c1.length&&c2[j]==c1[k])
+    	    {
+     		    j++;
+    		    k++;
+    	    }
+    	    if(j==c2.length)
+            {
+    		    count++;
+    		    i=k;
+    	    }
+       }
+       return count;
+    }
+        public static void main(String arg[])
+        {
+            Scanner sc= new Scanner(System.in);
+            System.out.println("Enter a sentance");
+            String s1=sc.nextLine();
+            System.out.println("Enter a word");
+            String s2=sc.next();
+            int count=countSubString(s1,s2);
+            System.out.println(s2+" is present "+count+" times");
+        }
+
+}
