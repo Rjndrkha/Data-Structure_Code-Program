@@ -18,10 +18,8 @@
     <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Rjndrkha/Hacktober-Fest-2021?color=blue&label=CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge">
   </a>
   
-  
-  
+**This repository will automatically assign the `hacktoberfest` and `hacktoberfest-accepted` labels to all submitted pull requests.**  
 </p>
-**This repository will automatically assign the `hacktoberfest` and `hacktoberfest-accepted` labels to all submitted pull requests.**
 
 ---
 
