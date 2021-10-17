@@ -24,3 +24,15 @@
 #### ⚠ IF U ADD FILES OUTSIDE FOLDER IT WILL AUTOMATIC DELETED
 #### ⚠ You can add any Programming file to this repo
 #### ⚠ DONT EDIT README.MD!!!
+
+---
+
+## 🔰 REWARD
+#### In Hacktoberfest 2021 You Can get free merchandise for $256 from DEV Shop
+
+![Screenshot (81)](https://user-images.githubusercontent.com/75615789/137628333-673fed7c-9570-49b9-a49b-f7a99af70901.png)
+
+![Screenshot (99)](https://user-images.githubusercontent.com/75615789/137628407-5807fca1-9fc3-4baf-9126-97ddccae9a28.png)
+
+![Screenshot (100)](https://user-images.githubusercontent.com/75615789/137628448-bf26d656-a0e8-49b6-a84b-386a5008d1be.png)
+
