@@ -20,7 +20,7 @@
   
 **This repository will automatically assign the `hacktoberfest` and `hacktoberfest-accepted` labels to all submitted pull requests.**
   
-**If u not star this repo will automatically assign with `star_validation` labels in pull request.**
+**If u not star this repo will automatically assign with `star_validation` labels in pull request and automatically not merge!.**
   
 </p>
 
