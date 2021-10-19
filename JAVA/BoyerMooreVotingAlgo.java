@@ -10,12 +10,12 @@
 
 				class BoyerMooreVotingAlgo {
           
-          public static void main(String[] args) {
-            int[] arr = {1,2,3,3,3,4,4,5,4,3};
-            System.out.println(majorityElement(arr).toString());
-          }
+                                        public static void main(String[] args) {
+                                           int[] arr = {1,2,3,3,3,4,4,5,4,3};
+                                           System.out.println(majorityElement(arr).toString());
+                                        }
           
-					public List<Integer> majorityElement(int[] nums) {
+					public static List<Integer> majorityElement(int[] nums) {
 					   List<Integer> list = new ArrayList<>();
 						 if(nums == null) return list;
 						int num1=0;
