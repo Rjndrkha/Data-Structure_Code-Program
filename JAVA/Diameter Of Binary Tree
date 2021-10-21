@@ -1,0 +1,20 @@
+class Solution 
+{
+    int max=0;                     //Updated each time new max occurs
+
+public int diameterOfBinaryTree(TreeNode root) {
+    maxDepth(root);             //Find maxDepth of root 
+    return max;                 //Return final max value
+}
+
+public int maxDepth(TreeNode root) {
+    if(root==null) return 0;
+    
+    int left=maxDepth(root.left);
+    int right=maxDepth(root.right);
+    
+    max=Math.max(max,left+right);          //To find the global maximum
+        
+    return Math.max(left,right)+1;         //This returns the max depth of the left and right subtrees
+}
+}
