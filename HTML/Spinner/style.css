@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    height:100vh;
+    display:grid;
+    place-items:center;
+    background-color:#000;
+  }
+  
+  .spinner{
+    width:100px;
+    height:100px;
+    border-top:2px solid #fff;
+    border-right:2px solid transparent;
+    border-radius:50%;
+    animation:rotate 0.7s linear infinite;
+  }
+  
+  @keyframes rotate{
+    from{
+      transform:rotate(0deg);
+    }
+    to{
+      transform:rotate(360deg);
+    }
+  }
