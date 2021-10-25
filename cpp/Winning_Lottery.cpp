@@ -57,4 +57,5 @@ int main()
 	int s, d;
 	cin >> s >> d;
 	lottery(s, d);
+	return 0;
 }
