@@ -1,0 +1,21 @@
+{
+    "name": "Dictionary Extension",
+    "version": "1.0",
+    "description": "Finds the meaning of the word entered by user",
+    "browser_action": {
+        "default_title": "Hello there! What is it that you're looking for",
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "dic.png",
+          "32": "dic.png"
+        }
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["popup.js"]
+      }
+    ],
+    "manifest_version": 2
+}
+  
