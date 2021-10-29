@@ -1,11 +1,5 @@
 ![image](https://user-images.githubusercontent.com/56723300/135698966-dc5c7d59-e8cf-4ffc-b0bf-a82009ad2187.png)
 
-<h1>
-<p align="center" ><b>
-Hacktoberfest 2021
-</p></b>
-</h1>
-
 <h2>
 <p align="center" ><b>
 ❤ THIS REPO WILL CLOSED IN 31 OCT 00:00 ❤
