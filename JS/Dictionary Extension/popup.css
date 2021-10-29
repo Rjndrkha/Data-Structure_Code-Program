@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    border:1px solid rgb(197, 150, 63);
+    background-color:rgb(204, 142, 27);
+    padding: 30px;
+    border-radius: 50%;
+    font-family: 'Oxygen', sans-serif;
+    width: 300px;
+    line-height: 2em;
+    
+}
+
+
+input{
+    margin: 20px 0;
+    padding: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    font-size: 14px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    margin: 20px 0;
+    padding: 12px 20px;
+    background-color:rgb(182, 99, 21);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+#material{
+    font-size: 16px;
+    transition: all 1s ease;
+}
