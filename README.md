@@ -1,8 +1,8 @@
-![image](https://user-images.githubusercontent.com/56723300/135698966-dc5c7d59-e8cf-4ffc-b0bf-a82009ad2187.png)
+![image](https://user-images.githubusercontent.com/75615789/192692200-a4155b0d-bdc3-4a05-9747-ea7d2d6f665b.png)
 
 <h1>
 <p align="center" ><b>
-❤ THIS REPO WILL CLOSED IN 31 OCT 00:00 ❤
+❤ THIS REPO WILL BE OPENED IN 1 OCT ❤
 </p></b>
 </h1>
 
@@ -24,9 +24,9 @@
     <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Rjndrkha/Hacktober-Fest-2021?color=blue&label=CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge">
   </a>
   
-**This repository will automatically assign the `hacktoberfest` and `hacktoberfest-accepted` labels to all submitted pull requests.**
+### **This repository will automatically assign the `hacktoberfest` and `hacktoberfest-accepted` labels to all submitted pull requests**
   
-**If u not star this repo will automatically assign with `star_validation` labels in pull request and automatically not merge!.**
+### **If u not star this repo will automatically assign with `star_validation` labels in pull request and automatically not merge!**
   
 </p>
 
@@ -48,21 +48,16 @@
 
 ## 💥 NOTE
 
-#### ⚠ PLEASE ADD YOUR FILE TO FOLDER.IF U WANT ADD ANOTHER PORGRAMMING LANGUAGE CREATE NEW FOLDER.Thank You.
+#### ⚠ IF U WANT ADD ANOTHER PORGRAMMING LANGUAGE CREATE NEW FOLDER AND ADD YOUR FILE TO NEW FOLDER.
 #### ⚠ IF U ADD FILES OUTSIDE FOLDER IT WILL AUTOMATIC DELETED
 #### ⚠ You can add any Programming file to this repo
 #### ⚠ DONT EDIT README.MD!!!
-#### ⚠⚠ IF U NOT STAR THIS REPO DON'T EXPECT ME TO MERGE YOUR PULL REQ ❤
-#### ⚠⚠ ALREADY STAR BUT BUT I HAVEN'T MERGE? , LEAVE A COMMENT ❤
+#### ⚠⚠⚠ IF U NOT STAR THIS REPO DON'T EXPECT ME TO MERGE YOUR PULL REQ ❤
+#### ⚠⚠⚠ ALREADY STAR BUT BUT I HAVEN'T MERGE? , LEAVE A COMMENT ❤
 
 ---
 
 ## 🔰 REWARD
-#### ⚠ In Hacktoberfest 2021 You Can get free merchandise for $256 from DEV Shop
+#### ABOUT REWARD WILL BE UPDATED SOON ❤
 
-![Screenshot (81)](https://user-images.githubusercontent.com/75615789/137628333-673fed7c-9570-49b9-a49b-f7a99af70901.png)
-
-![Screenshot (99)](https://user-images.githubusercontent.com/75615789/137628407-5807fca1-9fc3-4baf-9126-97ddccae9a28.png)
-
-![Screenshot (100)](https://user-images.githubusercontent.com/75615789/137628448-bf26d656-a0e8-49b6-a84b-386a5008d1be.png)
 
