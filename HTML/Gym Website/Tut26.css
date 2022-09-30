@@ -1,0 +1,118 @@
+    body {
+        color: white;
+        /* CSS reset  */
+        margin: 0px;
+        padding: 0px;
+        background: url('gym.jpeg') no-repeat center/cover;
+        background-color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 15px;
+    }
+
+    .left img {
+        width: 81px;
+        filter: grayscale(1) invert(1);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 52%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 34px;
+        display: inline-block;
+        /* border: 2px solid aqua; */
+    }
+
+    .navbar {
+        display: inline-block;
+        position: sticky;
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(216, 202, 202);
+    }
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 20px;
+
+    }
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(216, 202, 202);
+    }
+
+    .btn {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(48, 44, 44);
+    }
+
+    .container {
+        border: 2px solid white;
+        background-color: black;
+        margin-top: 300px;
+        margin-left:  470px;
+        margin-right:  470px;
+        padding: 35px 75px;
+        width: 30%;
+        border-radius: 10px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 462px;
+        padding: 6px;
+        border: 2px solid black;
+        border-radius: 8px;
+        font-size: 20px;
+        margin: 3px auto;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 479px;
+        margin: auto;
+    }
+
