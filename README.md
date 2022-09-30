@@ -2,7 +2,7 @@
 
 <h1>
 <p align="center" ><b>
-❤ THIS REPO WILL BE OPENED IN 1 OCT ❤
+❤ THIS REPO NOW OPENED ❤
 </p></b>
 </h1>
 
