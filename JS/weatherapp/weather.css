@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  color: gray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    rgba(248, 102, 82, 0.938),
+    rgba(255, 111, 111, 0.973)
+  );
+  font-family: sans-serif;
+}
+.location,
+.temperature {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.temperature {
+  flex-direction: column;
+  line-height: 2px;
+  justify-content: space-around;
+  margin-left: 80px;
+}
+.degreesec {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.degreesec h2 {
+  font-size: 40px;
+}
+.degreesec span {
+  margin: 10px;
+  font-size: 30px;
+}
+.box {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 20px;
+
+  background-color: wheat;
+}
+.loctime {
+  word-wrap: break-word;
+}

@@ -1,0 +1,41 @@
+body{
+  background-color:black;
+}
+h1{
+  color: greenyellow;
+}
+
+
+input[type=number]  {
+  border-radius:50px;
+  width:30%;
+  text-align: center;
+  color:red;
+  
+}
+
+.sub{
+  color:white;
+  padding:10px;
+  margin:auto;
+  
+}
+button 
+{
+  border-radius:50px;
+  width:20%;
+  
+}
+
+button:hover{
+  background-color:red;
+  
+}
+.pass h3{
+  color:darkgreen;
+}
+.box{
+ padding: 10px;
+
+
+}

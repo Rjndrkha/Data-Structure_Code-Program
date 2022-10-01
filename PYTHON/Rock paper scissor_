@@ -1,0 +1,88 @@
+from tkinter import *
+from tkinter.ttk import *
+import random
+window1 = Tk()
+window1.title('Rock Paper Scissors')
+window1.geometry('500x500')
+style1 = Style()
+style1.configure('W.TButton', foreground = 'green', font = ('Bernard MT', 30, 'bold'))
+lb1 = Label(window1, text = 'Rock Paper Scissors')
+lb1.pack(pady = 15)
+lb7 = Label(window1, text = 'Choose and then press start game to play:')
+lb7.pack(pady = 15)
+lit1 = ['Rock', 'Paper', 'Scissor']
+your_score = 0
+computer_score = 0
+cho = 3
+def clicked2():
+     global cho
+     lb9.configure(text = 'You have choosen Rock')
+     cho = 0
+def clicked3():
+     global cho
+     lb9.configure(text='You have choosen Paper')
+     cho = 1
+def clicked4():
+     global cho
+     lb9.configure(text='You have choosen Scissor')
+     cho = 2
+btn2 = Button(window1, text = 'Rock', command = clicked2)
+btn2.pack()
+btn3 = Button(window1, text = 'Paper', command = clicked3)
+btn3.pack()
+btn4 = Button(window1, text = 'Scissor', command = clicked4)
+btn4.pack()
+lb9 = Label(window1, text = '')
+lb9.pack(pady = 10)
+lb13 = Label(window1, text = 'Computer: ')
+lb13.pack()
+lb2 = Label(window1, text = '')
+lb2.pack(pady = 10)
+
+def clicked1():
+     global cho
+     if cho == 3:
+         lb1.configure(text='Please choose an option to play!', foreground = 'purple')
+         return
+     res = random.choice(lit1)
+     res1 = 4
+     if res == 'Rock':
+         res1 = 0
+     elif res == 'Paper':
+         res1 = 1
+     elif res == 'Scissor':
+         res1 = 2
+     lb2.configure(text = res)
+     if res1 == cho:
+         global your_score
+         lb1.configure(text = 'You Win', foreground = 'green')
+         your_score = your_score + 1
+         lb4.configure(text = 'Your Score: '+ str(your_score))
+     elif res1 != cho:
+         global computer_score
+         lb1.configure(text='You Lose', foreground='red')
+         computer_score = computer_score +1
+         lb5.configure(text='Computer Score: ' + str(computer_score))
+     cho = 3
+btn1 = Button(window1, text = 'START GAME', command = clicked1, style = 'W.TButton')
+btn1.pack(pady = 10)
+def clicked5():
+     global your_score
+     global computer_score
+     computer_score = 0
+     your_score =0
+     lb4.configure(text='Your Score: ' + str(your_score))
+     lb5.configure(text='Computer Score: ' + str(computer_score))
+     lb2.configure(text = '')
+     lb9.configure(text = '')
+btn1 = Button(window1, text = 'Reset Scoreboard', command = clicked5)
+btn1.pack(pady = 10)
+lb1 = Label(window1, text = '')
+lb1.pack()
+lb3 = Label(window1, text = 'Note: Choose a button each time and then press start game to play!')
+lb3.pack(pady = 10)
+lb4 = Label(window1, text = 'Your Score: 0')
+lb4.pack()
+lb5 = Label(window1, text = 'Computer Score: 0')
+lb5.pack()
+window1.mainloop()

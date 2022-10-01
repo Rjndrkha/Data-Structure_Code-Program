@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Footer template</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+      
+           ul {
+         list-style: none
+     }
+     a {
+         text-decoration: none;
+         color: #ffeba7;
+     }
+     a:hover {
+         color: cornflowerblue;
+     }
+     .flex-rw {
+         display: flex;
+         flex-flow: row wrap;
+     }
+     main {
+         flex: 1 1 auto;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font: 10em "Oswald", sans-serif;
+         color: rgb(39, 37, 37);
+         line-height: 1
+     }
+     footer {
+         background: rgb(29, 28, 28);
+         margin-top: 49px;
+         width: 100%
+     }
+     .footer-list-top {
+         width: 33.333%
+     }
+     .footer-list-top>li {
+         text-align: center;
+         padding-bottom: 10px
+     }
+     .footer-list-header {
+         padding: 10px 0 5px 0;
+         color: #fff;
+         font: 2.3vw "Oswald", sans-serif
+     }
+     .footer-list-anchor {
+         font: 1.3em "Open Sans", sans-serif
+     }
+     .footer-social-section {
+         width: 100%;
+         align-items: center;
+         justify-content: space-around;
+         position: relative;
+         margin-top: 5px;
+     }
+     .footer-social-section::after {
+         content: "";
+         position: absolute;
+         z-index: 1;
+         top: 50%;
+         left: 10px;
+         border-top: 1px solid;
+         width: calc(100% - 20px)
+     }
+     .footer-social-overlap {
+         position: relative;
+         z-index: 2;
+         background: rgb(32, 31, 31);
+         padding: 0 20px
+     }
+     .footer-social-connect {
+         display: flex;
+         align-items: center;
+         font: 2.5em "Oswald";
+         color: #fff
+     }
+     .footer-social-small {
+         font-size: 0.6em;
+         padding: 0px 20px
+     }
+     .footer-social-overlap>a {
+         font-size: 3em
+     }
+     .footer-social-overlap>a:not(:first-child) {
+         margin-left: 0.38em
+     }
+     .footer-bottom-section {
+         width: 100%;
+         padding: 10px;
+         border-top: 1px solid;
+         margin-top: 10px
+     }
+     .footer-bottom-section>div:first-child {
+         margin-right: auto
+     }
+     .footer-bottom-wrapper {
+         font-size: 1.5em;
+         color: #fff
+     }
+     .footer-address {
+         display: inline;
+         font-style: normal
+     }
+     @media only screen and (max-width: 768px) {
+         .footer-list-header {
+             font-size: 2em
+         }
+         .footer-list-anchor {
+             font-size: 1.1em
+         }
+         .footer-social-connect {
+             font-size: 2.5em
+         }
+         .footer-social-overlap>a {
+             font-size: 2.24em
+         }
+         .footer-bottom-wrapper {
+             font-size: 1.3em
+         }
+     }
+     /*responsiveness*/
+     @media only screen and (max-width: 568px) {
+         main {
+             font-size: 4em
+         }
+         .footer-list-top {
+             width: 100%
+         }
+         .footer-list-header {
+             font-size: 2em;
+         }
+         .footer-list-anchor {
+             font-size: 1.5em
+         }
+         .footer-social-section {
+             justify-content: center
+         }
+         .footer-social-section::after {
+             top: 25%
+         }
+         .footer-social-connect {
+             margin-bottom: 10px;
+             padding: 0 10px
+         }
+         .footer-social-overlap {
+             display: flex;
+             justify-content: center;
+         }
+         .footer-social-icons-wrapper {
+             width: 100%;
+             padding: 0
+         }
+         .footer-social-overlap>a:not(:first-child) {
+             margin-left: 20px;
+         }
+         .footer-bottom-section {
+             padding: 0 5px 10px 5px
+         }
+         .footer-bottom-wrapper {
+             text-align: center;
+             width: 100%;
+             margin-top: 10px
+         }
+     }
+     @media only screen and (max-width: 480px) {
+         .footer-social-overlap>a {
+             margin: auto
+         }
+         .footer-social-overlap>a:not(:first-child) {
+             margin-left: 0;
+         }
+         .footer-bottom-rights {
+             display: block
+         }
+     }
+     @media only screen and (max-width: 320px) {
+         .footer-list-header {
+             font-size: 2.2em
+         }
+         .footer-list-anchor {
+             font-size: 1.2em
+         }
+         .footer-social-connect {
+             font-size: 2.4em
+         }
+         .footer-social-overlap>a {
+             font-size: 2.24em
+         }
+         .footer-bottom-wrapper {
+             font-size: 1.3em
+         }
+     }
+ </style>
+  </head>
+
+
+
+<body>
+  <footer class="flex-rw" id="sec2">
+    <ul class="footer-list-top">
+        <li>
+            <h4 class="footer-list-header">Our Aim</h4>
+        </li>
+        <li><a href='#abt' class="generic-anchor footer-list-anchor" itemprop="significantLink">Contact Us</a></li>
+        <li><a href='#abt' class="generic-anchor footer-list-anchor" itemprop="significantLink">Our Goals</a>
+        </li>
+        <li><a href='#abt' class="generic-anchor footer-list-anchor" itemprop="significantLink">Our Team</a></li>
+    </ul>
+    <ul class="footer-list-top">
+        <li>
+            <h4 class="footer-list-header">Section2</h4>
+        </li>
+        <li><a href='#' target="_blank"
+                class="generic-anchor footer-list-anchor">sec1</a></li>
+        <li><a href='#' target="_blank"
+                class="generic-anchor footer-list-anchor">sec2</a></li>
+        <li><a href='#' target="_blank"
+                class="generic-anchor footer-list-anchor">sec3</a></li>
+    </ul>
+    <ul class="footer-list-top">
+        <li id='help'>
+            <h4 class="footer-list-header">Socials</h4>
+        </li>
+        <li><a href='#' class="generic-anchor footer-list-anchor">GitHub</a></li>
+        <li><a href='#' class="generic-anchor footer-list-anchor">Twitter</a></li>
+        <li><a href='#' class="generic-anchor footer-list-anchor">Instagram</a></li>
+        <li><a href='#' class="generic-anchor footer-list-anchor">LinkedIn</a></li>
+    </ul>
+    <!--Connect-->
+    <section class="footer-social-section flex-rw">
+        <span class="footer-social-overlap footer-social-connect">
+            CONNECT <span class="footer-social-small">with</span> US
+        </span>
+    </section>
+    <section class="footer-bottom-section flex-rw">
+        <div class="footer-bottom-wrapper">
+            <i class="fa fa-copyright" role="copyright">
+            </i> Lorem <address class="footer-address" role="company address">India</address><span
+                class="footer-bottom-rights"> - All Rights Reserved - </span>
+        </div>
+        <div class="footer-bottom-wrapper">
+            <a href="#" class="generic-anchor" rel="nofollow">Terms</a> | <a href="#" class="generic-anchor"
+                rel="nofollow">Privacy</a>
+        </div>
+    </section>
+</footer>
+</body>

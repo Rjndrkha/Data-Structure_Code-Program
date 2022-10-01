@@ -1,0 +1,12 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    max-width: 420px;
+    gap: 5px;
+}
+.hey{
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
