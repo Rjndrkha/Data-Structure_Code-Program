@@ -32,3 +32,12 @@ void main()
 	
 	cout<< "BAKA BAKA BAKA" ;
 }
+
+int dict(int a) {
+	cout<< "PEANUTS";
+	//
+	//
+	//
+	//
+	return a=7;
+}
