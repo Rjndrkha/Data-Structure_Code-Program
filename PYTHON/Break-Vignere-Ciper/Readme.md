@@ -1,0 +1,10 @@
+# Break-Vignere-Cipher
+Vignere Cipher can be breakable if short keys are used to encrypt the plaintext or the length of ciphertext is much greater than the length of the key. These properties have formed the basis for breaking the Vignere Cipher.
+Breaking the Vignere Cipher involve 3 steps:
+1)	Finding the key length
+2)	Finding the key
+3)	Decrypting the cipher text
+
+The first step involves finding the key length. For finding the key length the test called Index of Coincidence (I.C.) is used which is a statistical method which measure how similar a frequency distribution is to the uniform distribution. The I.C. value does not change even when the plaintext is encrypted. We assume the key length from 1 to 15 one-by-one and then calculate the average I.C. value for the ciphertext. The key with maximum value of I.C. is most probably the length of the key. In my example, the key 8 has maximum I.C. value and hence it is the length of the key.
+For finding the key, another statistical method called Chi-squared statistic is used. It measures how similar two categorical distributions are. In this question, we calculate Chi-squared value between the frequency distribution of the ciphertext and frequency distribution of English letters. Since the length of the key in 8, we must partition the ciphertext in 8 parts to get each letter of the 8-length key. There are 26 possibilities of what each letter of the key, so we perform the Chi-squared statistic 26 times for each partition of the ciphertext. For one complete Chi-squared statistic, the key which gives minimum value forms the letter of the key for that statistic. This way we can create whole key.
+After finding the key, we can use the Vignere table to decrypt the ciphertext to get the plaintext. In the Vignere table, we find the row with the current letter instance of the key and find the current letter instance of ciphertext, and the column in which we find the instance of the ciphertext forms the current instance of the plaintext. We then navigate to the next instance letter of the key and ciphertext. Repeating this procedure for the entire length of the ciphertext, we get the entire plaintext.
