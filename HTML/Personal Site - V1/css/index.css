@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mobile {
+    display: none;
+}
+
+.section1 {
+    background-image: url('../images/bg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20vh;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 2vw;
+}
+
+.logo1 {
+    flex: 1;
+}
+
+.logo {
+    margin-left: 2vw;
+    width: 5vw;
+    height: 5vw;
+    border: 2px solid darkorange;
+    border-radius: 20px;
+}
+
+.listitems {
+    display: flex;
+    padding-right: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+    margin: 10px, 0;
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+
+nav ul li a:hover {
+    color: black;
+    background: yellow;
+    box-shadow: 0 0 10px yellow, 0 0 40px yellow, 0 0 80px yellow;
+    transition-delay: 0.1s;
+}
+
+.me {
+    height: 50vw;
+    width: 50vw;
+}
+
+main {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.maininfo {
+    font-weight: bold;
+}
+
+.intro1 {
+    font-size: 8.5vw;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.namecolour {
+    color: orange;
+}
+
+
+@media screen and (max-width:700px){
+    .section1{
+        display: none;
+    }
+
+    body {
+        background-color: cyan;
+    }
+
+    .mobile {
+        margin-top: 20vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        border: 5px solid black;
+        display: contents;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        justify-content: center;
+        text-align: center;
+        background-color: aquamarine;
+    }
+
+    .mobhead {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .mobdesc {
+        font-size: 1rem;
+    }
+
+}

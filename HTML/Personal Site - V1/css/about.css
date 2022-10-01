@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4vw;
+    padding-top: 10px;
+}
+
+.logo1 {
+    flex: 1;
+}
+
+.logo {
+    margin-left: 2vw;
+    width: 5vw;
+    height: 5vw;
+    border: 2px solid darkorange;
+    border-radius: 20px;
+}
+
+.listitems {
+    display: flex;
+    padding-right: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+    margin: 10px, 0;
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+
+nav ul li a:hover {
+    color: black;
+    background: yellow;
+    box-shadow: 0 0 10px yellow, 0 0 40px yellow, 0 0 80px yellow;
+    transition-delay: 0.1s;
+}
+
+main {
+    padding-top: 20px;
+    padding-bottom: 20vh;
+    background-image: url('../images/temp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.self {
+    padding-bottom: 60px;
+    text-align: center;  
+    font-size: 8vw;
+    color: #252839;
+    -webkit-text-stroke: 0.5vw whitesmoke;
+}
+
+.desc {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2vw;
+    padding-bottom: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+span {
+    color: darkorange;
+}
+
+h1 {
+    padding-bottom: 10px;
+    font-size: 4vh;
+}
+
+.sect2 {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.col1 {
+    margin-right: 3%;
+    border-radius: 10px;
+    margin-left: 3%;
+    padding-left: 10%;
+    flex: 1;
+    color: white;
+    background-image: url('../images/bb.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: 3px solid darkorange;
+    border-radius: 10px;
+}
+
+.col1:first-child{
+    padding-top: 20px;
+}
+
+.col1 h1 {
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.col1 span {
+    font-size: 2vw;
+    color: orange;
+}
+
+.col2 {
+    width: 50%;
+    margin-right: 3%;
+    background-image: url('../images/b.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: 3px solid darkorange;
+    border-radius: 10px;
+}
+
+.lang1, .lang2, .lang3, .lang4, .lang5{
+    display: flex;
+    padding-left: 5%;
+}
+
+
+.python, .cpp, .html, .css, .js{
+    padding-bottom: 5px;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 2vw;
+    animation: fade 3s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.pythonbar{
+    border-radius: 10px;
+    height: 10px;
+    margin-left: 5%;
+    width: 0%;
+    background: red;
+}
+
+.pythonbar.f{
+    animation: animate1 2s forwards;
+}
+
+.cppbar.f{
+    animation: animate2 2s forwards;
+}
+
+.htmlbar.f{
+    animation: animate3 2s forwards;
+}
+
+.cssbar.f{
+    animation: animate4 2s forwards;
+}
+
+.jsbar.f{
+    animation: animate5 2s forwards;
+}
+
+@keyframes animate1 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+.cppbar{
+    border-radius: 10px;
+    margin-left: 5%;
+    height: 10px;
+    background: red;
+    width: 0%;
+}
+
+@keyframes animate2 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+
+.htmlbar{
+    border-radius: 10px;
+    margin-left: 5%;
+    height: 10px;
+    background: red;
+    width: 0%;
+}
+
+@keyframes animate3 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+
+.cssbar{
+    border-radius: 10px;
+    margin-left: 5%;
+    height: 10px;
+    background: red;
+    width: 0%;
+}
+
+@keyframes animate4 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+
+.jsbar{
+    border-radius: 10px;
+    margin-left: 5%;
+    height: 10px;
+    background: red;
+    margin-bottom: 4vw;
+    width: 0%;
+}
+
+@keyframes animate5 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+

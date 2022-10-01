@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    padding-bottom: 40vh;
+    background-image: url('../images/sparkles.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4vw;
+    padding-top: 2vw;
+}
+
+.logo1 {
+    flex: 1;
+}
+
+.logo {
+    margin-left: 2vw;
+    width: 5vw;
+    height: 5vw;
+    border: 2px solid darkorange;
+    border-radius: 20px;
+}
+.listitems {
+    display: flex;
+    padding-right: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+    margin: 10px, 0;
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+
+nav ul li a:hover {
+    color: black;
+    background: yellow;
+    box-shadow: 0 0 10px yellow, 0 0 40px yellow, 0 0 80px yellow;
+    transition-delay: 0.1s;
+}
+
+.self {
+    padding-bottom: 10vh;
+    text-align: center;  
+    font-size: 8vw;
+    color: #252839;
+    -webkit-text-stroke: 0.5vw white;
+}
+
+span {
+    color: darkorange;
+}
+
+.desc {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 2vw;
+    padding-bottom: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.row1, .nameoflogo, .maindetails, .socials, .socialdetails, .gibberishdetails {
+    display: flex;
+}
+
+.col1 {
+    text-align: center;
+    flex: 1;
+    font-size: 3vw;
+    color: wheat;
+}
+
+.col2 {
+    flex: 1;
+    font-size: 1.3vw;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.col3 {
+    flex: 1;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.col6 {
+    flex: 1;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.facebook, .insta, .linkedin, .github {
+    flex: 1;
+    text-align: center;
+    font-size: 3vw;
+    transition: 1s;
+}
+
+.col5 {
+    flex: 1;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.facebook:hover{
+    font-size: 5vw;
+    transition: 0.5s;
+    filter: drop-shadow(0 0 20px #1877f2) drop-shadow(0 0 40px #1877f2) drop-shadow(0 0 60px #1877f2);
+}
+
+.insta:hover{
+    font-size: 5vw;
+    transition: 0.5s;
+    filter: drop-shadow(0 0 20px #c32aa3) drop-shadow(0 0 40px #c32aa3) drop-shadow(0 0 60px #c32aa3);
+}
+
+.linkedin:hover{
+    font-size: 5vw;
+    transition: 0.5s;
+    filter: drop-shadow(0 0 20px #1da1f2) drop-shadow(0 0 40px #1da1f2) drop-shadow(0 0 60px #1da1f2);
+}
+
+.github:hover{
+    font-size: 5vw;
+    transition: 0.5s;
+    filter: drop-shadow(0 0 20px #6cc644) drop-shadow(0 0 40px #6cc644) drop-shadow(0 0 60px #6cc644);
+}
+
+.facebook {
+    color: #1877f2;
+}
+
+.insta{
+    color: #c32aa3;
+}
+
+.linkedin{
+    color: #1da1f2;
+}
+
+.github{
+    color: #6cc644;
+}
