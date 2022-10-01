@@ -1,0 +1,33 @@
+#include <iostream>
+#include<algorithm>
+#include<vector>
+using namespace std;
+
+
+  void countfreq(int arr[], int n){
+      vector<bool> visited(n,false);
+      for(int i=0;i<n;i++){
+          if(visited[i]==true)
+              continue;
+              int cnt=1;
+
+              for(int j=i+1;j<n;j++){
+                  if(arr[i]==arr[j]){
+                      visited[j]=true;
+                      cnt++;
+
+                  }
+              }
+              
+          cout<<arr[i]<<" "<<cnt<<endl;
+      }
+  }
+  int main() {
+int arr[1000];
+int n;
+cin>>n;
+for(int i=0;i<n;i++){
+    cin>>arr[i];
+}
+countfreq(arr,n);
+}
