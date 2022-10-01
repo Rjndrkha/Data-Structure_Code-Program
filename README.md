@@ -7,10 +7,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://hacktoberfest.digitalocean.com/">
-    <img alt="GitHub Hacktoberfest combined status" 
-         src="https://img.shields.io/github/hacktoberfest/2021/Rjndrkha/Hacktober-Fest-2021?color=red&logo=R&style=for-the-badge">
-  </a>
+ 
   <a href="https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/codeql-analysis.yml">
     <img alt="codeql" src="https://img.shields.io/badge/codeql-PASSED-green?style=for-the-badge&logo=github" />
   </a>
