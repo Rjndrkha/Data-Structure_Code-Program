@@ -28,4 +28,7 @@ void main()
      scanf("%d",&a);
      a=dict(a);
   }while(a!=7);
+	
+	
+	cout<< "BAKA BAKA BAKA" ;
 }
