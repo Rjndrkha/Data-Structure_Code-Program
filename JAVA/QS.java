@@ -1,3 +1,5 @@
+// extensive modularity with quickosort and easy to understand comments
+
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -8,7 +10,7 @@ class QS{
 
 		int low=a;
 		int high=b;
-		int pivot=0;                          // dummy initialization, don't care about this value
+		int pivot=0;                          // dummy initialization to pivot variable
 
 		if(low>high)
 			  {
@@ -61,12 +63,7 @@ class QS{
 
 public static void main(String[] args)
 	{
-		Scanner x=new Scanner(System.in);
-		System.out.println("P. Sriram Bhardwaj");
-		System.out.println("Regd.no - 122010308005");
-		System.out.println(" ");
-		System.out.println("QuickSort");
-		System.out.println(" ");
+		/*Scanner x=new Scanner(System.in);
 		System.out.println("enter the number of elements");
 		int n=x.nextInt();
 		int[] arr=new int[n];
@@ -75,14 +72,17 @@ public static void main(String[] args)
 		{
 			System.out.println("enter element "+i);
 			arr[i]=x.nextInt();
-		}
+		}*/
+	
+		int arr[] = new int[]{10, 9, 4, 7, 11, 16};
+		int n=arr.length;
 
 
-		System.out.print("original array - ");
-		System.out.println(Arrays.toString(arr));
-		System.out.println(" ");
+		//System.out.print("original array - ");
+		//System.out.println(Arrays.toString(arr));
+		//System.out.println(" ");
 		QuickSort(arr,0,n-1);
-		System.out.print("Sorted Array - ");
+		//System.out.print("Sorted Array - ");
 		System.out.println(Arrays.toString(arr));
 	}
 
