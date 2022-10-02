@@ -1,5 +1,6 @@
 // this is a heavily modular code with a lot of functionalities. this code can be used as the code base when trying to visualise knapsack algorithm 
 // extensive modularity along with loose coupling
+// very easy to debug
 
 
 import java.util.Scanner;
@@ -141,8 +142,8 @@ class knapsack
 
 	static float[][] solving(float[] p, float[] w, int n, float peak)                    //calling the functions
 	{
-		float[] k=filling(p,w,n,peak);
-		float[] f=fractions(k,w,n);
+		float[] k=filling(p,w,n,peak);                                               // array k stores the weights filled in
+		float[] f=fractions(k,w,n);                                                  // array f stores the fraction of original weights filled in 
 		float[][] sol={k,f};
 		return sol;
 	}
@@ -165,10 +166,12 @@ class knapsack
 		
 		float[] p = new float[] {10, 4, 9, 11};
 		float[] w = new float[] {3,5,6,2};
+		int n= p.length;
+		float peak = 7;                                      //maximum capacity of the knapsack
 			
 		float[][] solution={{0},{0}};
 		solution=solving(p,w,n,peak);
-		System.out.println(Arrays.toString(solution[0]));
-		System.out.println(Arrays.toString(solution[1]));	
+		System.out.println(Arrays.toString(solution[0]));            // prints the weights filled in 
+		System.out.println(Arrays.toString(solution[1]));	     // prints the fraction of original weights filled in 
 	}
 }
