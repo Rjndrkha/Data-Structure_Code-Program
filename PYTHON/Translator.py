@@ -1,4 +1,5 @@
-from tkinter import *
+#importing python GUI library tkinter
+from tkinter import * 
 from translate import Translator
 
 #Translator function 
@@ -21,7 +22,7 @@ mainframe.pack(pady = 100, padx = 100)
 #variables 
 lan1 = StringVar(root)
 lan2 = StringVar(root)
-lan1.set('English')
+lan1.set('ENGLISH')
 lan2.set('Hindi')
 
 #taking input of languages from user
