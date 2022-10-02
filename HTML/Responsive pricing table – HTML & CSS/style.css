@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap');
+ 
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+ 
+body{
+    background-color: #0D0D20;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+ 
+.pricing-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1920px,100%);
+}
+ 
+.pricing-card{
+    flex: 1;
+    max-width: 360px;
+    background-color: #171727;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #ffffff;
+    transition: .3s linear;
+    border-radius: 20px;
+    /* border: 0.5px solid #fff; */
+     
+}
+ 
+.pricing-card-header{
+    background-color: #171727;
+    display: inline-block;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+}
+ 
+.pricing-card:hover .pricing-card-header {
+    box-shadow: 0 0 0 26em #242486;
+}
+ 
+.price{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 40px 0;
+    transition: .2s linear;
+}
+ 
+.price sup, .price span {
+    font-size: 22px;
+    font-weight: 700;
+}
+ 
+.pricing-card li {
+    font-size: 16px;
+    padding: 10px 0;
+    
+}
+ 
+.pricing-card:hover , .pricing-card:hover .price {
+    color: #fff;
+}
+ 
+ 
+ 
+.order-btn {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid #1F1F35;
+    color: #ffffff;
+    padding: 18px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+}
+ 
+.order-btn:hover {
+    background-color: #0fbcf9;
+    color: #fff;
+}
+ 
+@media screen and (max-width:1100px)
+{
+    .pricing-card{
+        flex: 50%;
+    }
+}
