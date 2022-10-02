@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: url(cursor.png);
+    --canvas-width :100vw;
+    --canvas-height : 100vh;
+    font-size:30px;
+    font-weight:bold;
+    overflow: hidden;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.data-cont{
+    position: fixed;
+    top:20px;
+    left: 20px;
+}
+
+#canvas{
+    width: var(--canvas-width);
+    height: var(--canvas-height);
+    border: 2px solid black;
+    background-color: white;
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+.cursor{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+}
+.canvas-cont{
+    width: var(--canvas-width);
+    height: var(--canvas-height);
+}
+
+.game-over-div{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: var(--canvas-width);
+    height: var(--canvas-height);
+    background-color: rgb(0,0,0,0.5);
+}
+
+.invisible{
+    display: none;
+}
+.game-over-div>span{
+    margin-bottom: 20px;
+}
+
+button{
+    border: 2px solid black;
+    background: linear-gradient(30deg,darkmagenta,rgb(83, 0, 83));
+    padding: 20px 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.level-selector-div{
+    position: absolute;
+    z-index: 100;
+    right: 0px;
+    bottom:0px;
+    width: var(--canvas-width);
+    height: var(--canvas-height);
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.level-selector-div>div>select,option{
+    color: black;
+    width: fit-content;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.esc-instruction{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}

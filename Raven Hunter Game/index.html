@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raven Hunter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <!-- <script src="cursor.js" defer></script> -->
+</head>
+<body>
+    <!-- <img src="cursor.png" alt="cursor" class="cursor"> -->
+    <div class="container">
+        <div class="data-cont">
+            <p>Highest Score : <span class="highest-score"></span></p>
+            <p>Score : <span id="score-span"></span></p>
+            <p>Level : <span class="level-display"></span></p>
+        </div>
+        <p class="esc-instruction">Press 'Esc' to change levels</p>
+        <div class="canvas-cont">
+            <canvas id="canvas"></canvas>
+            <div class="game-over-div invisible"> 
+                <span>Game Over</span>
+                <button class="retry-btn">Retry</button>
+            </div>
+            <div class="level-selector-div invisible">
+                <div>
+                    <label for="level">Choose Level : </label>
+                    <select name="level" id="level">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+                <div>
+                    <button id="restart-btn">Restart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
