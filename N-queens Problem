@@ -1,0 +1,26 @@
+class Solution:
+    def solveNQueens(self, n: int) -> List[List[str]]:
+        mat=[['.' for _ in range(n)] for _ in range(n)]
+        res=[]
+        column=set() # this checks the column number
+        left_diag=set() # this is i-j
+        right_diag=set() # this is i+j i.e., i+j will be constant 
+        def solve(i):
+            if i==n:
+                temp=["".join(row) for row in mat]
+                res.append(temp)
+                return 
+            for j in range(n):
+                if j in column or i-j in left_diag or i+j in right_diag:
+                    continue
+                column.add(j)
+                left_diag.add(i-j)
+                right_diag.add(i+j)
+                mat[i][j]='Q'
+                solve(i+1)
+                column.remove(j)
+                left_diag.remove(i-j)
+                right_diag.remove(i+j)
+                mat[i][j]='.'
+        solve(0)
+        return res
