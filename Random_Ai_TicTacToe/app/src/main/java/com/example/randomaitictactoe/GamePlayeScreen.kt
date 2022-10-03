@@ -17,6 +17,7 @@ import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.randomaitictactoe.component.Board
 
 //this is the gamePlay screen where the human player and the computer would play.
 @OptIn(ExperimentalFoundationApi::class)
