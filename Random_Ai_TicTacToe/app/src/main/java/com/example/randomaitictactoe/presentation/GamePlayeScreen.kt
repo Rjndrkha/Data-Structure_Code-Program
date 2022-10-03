@@ -1,4 +1,4 @@
-package com.example.randomaitictactoe
+package com.example.randomaitictactoe.presentation
 
 
 import androidx.compose.foundation.BorderStroke
@@ -17,12 +17,12 @@ import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.randomaitictactoe.component.Board
+import com.example.randomaitictactoe.presentation.component.Board
 
 //this is the gamePlay screen where the human player and the computer would play.
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun GamePlay(viewModel : PlayerViewModel ) {
+fun GamePlay(viewModel : PlayerViewModel) {
 
     val state1 = viewModel.state2.observeAsState()
 

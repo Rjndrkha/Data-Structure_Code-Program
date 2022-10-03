@@ -1,4 +1,4 @@
-package com.example.randomaitictactoe.component
+package com.example.randomaitictactoe.presentation.component
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.lazy.GridCells

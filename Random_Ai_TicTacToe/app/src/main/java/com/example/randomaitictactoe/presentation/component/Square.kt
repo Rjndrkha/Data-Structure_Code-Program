@@ -1,4 +1,4 @@
-package com.example.randomaitictactoe.component
+package com.example.randomaitictactoe.presentation.component
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.fillMaxWidth

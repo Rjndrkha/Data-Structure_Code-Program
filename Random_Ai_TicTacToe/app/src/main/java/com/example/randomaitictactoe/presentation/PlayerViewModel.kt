@@ -1,9 +1,9 @@
-package com.example.randomaitictactoe
+package com.example.randomaitictactoe.presentation
 
 
 import android.util.Log
 import androidx.lifecycle.*
-import com.example.randomaitictactoe.state.ViewState
+import com.example.randomaitictactoe.presentation.state.ViewState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

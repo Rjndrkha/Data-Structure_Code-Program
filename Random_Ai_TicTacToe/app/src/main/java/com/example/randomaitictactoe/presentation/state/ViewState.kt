@@ -1,4 +1,4 @@
-package com.example.randomaitictactoe.state
+package com.example.randomaitictactoe.presentation.state
 
 //ViewState is the state that handles the turn and square chosen by the player and the computer. It also notifies who has won.
 //It also uses an enum class to maintain the turn sequence.
