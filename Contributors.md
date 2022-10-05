@@ -7,4 +7,6 @@
 
 [Saugat Rimal](https://github.com/saugat-rimal)
 
+[Harsh Ranjan](https://github.com/harshranjan63)
+
 <!-- prettier-ignore-end -->
