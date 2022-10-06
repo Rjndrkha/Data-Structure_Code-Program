@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "open-Sans", sans-serif;
+  background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
+  background-image: url(/JS/Tip-Calculator/images/img.svg);
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  height: 100vh;
+  /* background-color: var(--light-blue); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc {
+  width: 40rem;
+  background-color: rgb(255, 251, 251);
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+    10px 10px 70px rgba(251, 255, 4, 0.89),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 4rem;
+  color: var(--white);
+  background-color: var(--color-sec);
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0px 0px 5px 50px;
+}
+
+form,
+form > * {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  font-size: 1.6rem;
+  border-bottom: 2px solid var(--color-primary);
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input,
+select {
+  font-size: 1.6rem;
+  padding: 7px;
+  width: 20rem;
+  text-align: right;
+}
+
+.btn {
+  width: fit-content;
+  margin: 10px 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.btn:hover {
+  border: 1px solid white;
+}
+
+button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
+
+.error {
+  color: red;
+  display: none;
+}
+
+.result {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.result > * {
+  background-color: #eee;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.total {
+  color: red;
+}
