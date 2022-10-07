@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="com.example.TestGreeter" time="0.102" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="CI-CD_ansible"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="PWD" value="/var/lib/jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://13.234.186.71:8080/job/CI-CD_ansible/4/display/redirect?page=tests"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH" value="/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.el8_6.x86_64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="5b67950f8784b4f0"/>
+    <property name="POM_ARTIFACTID" value="maven-project"/>
+    <property name="os.name" value="Linux"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Maven Project"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.runtime.version" value="11.0.16+8-LTS"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="NOTIFY_SOCKET" value="/run/systemd/notify"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="CI-CD_ansible"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://13.234.186.71:8080/job/CI-CD_ansible/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.el8_6.x86_64/lib"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="57011833fdc877d6aa2db85ed32b26bc4206e892"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.timezone" value="UTC"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="BUILD_ID" value="4"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="maven.conf" value="/opt/maven/conf"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.el8_6.x86_64"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="4.18.0-372.9.1.el8.x86_64"/>
+    <property name="RUN_DISPLAY_URL" value="http://13.234.186.71:8080/job/CI-CD_ansible/4/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://13.234.186.71:8080/job/CI-CD_ansible/4/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.16+8-LTS"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="57011833fdc877d6aa2db85ed32b26bc4206e892"/>
+    <property name="JOB_DISPLAY_URL" value="http://13.234.186.71:8080/job/CI-CD_ansible/display/redirect"/>
+    <property name="SHLVL" value="0"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="JAVA_HOME" value="/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.el8_6.x86_64"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="LOGNAME" value="jenkins"/>
+    <property name="POM_PACKAGING" value="pom"/>
+    <property name="HOME" value="/var/lib/jenkins"/>
+    <property name="POM_GROUPID" value="com.example.maven-project"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="BUILD_TAG" value="jenkins-CI-CD_ansible-4"/>
+    <property name="JENKINS_SERVER_COOKIE" value="5b67950f8784b4f0"/>
+    <property name="HUDSON_URL" value="http://13.234.186.71:8080/"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="https://www.redhat.com/"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="maven.home" value="/opt/maven"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /opt/maven /var/cache/jenkins/war/WEB-INF/lib/remoting-4.13.2.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 44403"/>
+    <property name="java.class.path" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/opt/maven/boot/plexus-classworlds-2.6.0.jar:/opt/maven/conf/logging"/>
+    <property name="JOURNAL_STREAM" value="9:27205"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="PATH+JDK" value="/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.el8_6.x86_64/bin"/>
+    <property name="INVOCATION_ID" value="1b8224f481344c5ab81656dc963ee0f5"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="/opt/maven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="/opt/maven/bin"/>
+    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi?product=Red%20Hat%20Enterprise%20Linux%208&amp;component=java-11-openjdk"/>
+    <property name="BUILD_URL" value="http://13.234.186.71:8080/job/CI-CD_ansible/4/"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="user.dir" value="/var/lib/jenkins/workspace/CI-CD_ansible"/>
+    <property name="JOB_URL" value="http://13.234.186.71:8080/job/CI-CD_ansible/"/>
+    <property name="MAVEN_HOME" value="/opt/maven"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="4"/>
+    <property name="JENKINS_URL" value="http://13.234.186.71:8080/"/>
+    <property name="GIT_BRANCH" value="origin/main"/>
+    <property name="GIT_COMMIT" value="57011833fdc877d6aa2db85ed32b26bc4206e892"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/var/lib/jenkins/workspace/CI-CD_ansible@tmp"/>
+    <property name="WORKSPACE" value="/var/lib/jenkins/workspace/CI-CD_ansible"/>
+    <property name="maven3.interceptor.common" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="java.vendor.version" value="(Red_Hat-11.0.16.0.8-1.el8_6)"/>
+    <property name="USER" value="jenkins"/>
+    <property name="GIT_URL" value="https://github.com/SHrEE-7/Devops.git"/>
+  </properties>
+  <testcase classname="com.example.TestGreeter" name="greetShouldIncludeGreetingPhrase" time="0.018"/>
+  <testcase classname="com.example.TestGreeter" name="greetShouldIncludeTheOneBeingGreeted" time="0"/>
+</testsuite>

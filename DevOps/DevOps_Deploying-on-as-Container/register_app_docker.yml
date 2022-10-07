@@ -1,0 +1,13 @@
+---
+- hosts: 172.31.32.139
+
+  tasks:
+
+  - name: Remove docker running/stopped container
+    command: docker rm -f  regapp-server
+    ignore_errors: yes 
+  - name: Remove docker pulled image
+    command: docker rmi 07shree/regapp:latest
+    ignore_errors: yes
+  - name: Create container using 07shree/regapp:latest image
+    command: docker run -d --name regapp-server -p 8080:8080 07shree/regapp:latest
