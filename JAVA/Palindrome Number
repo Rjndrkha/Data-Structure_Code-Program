@@ -1,0 +1,51 @@
+public class Palindrome_Number {
+
+	public static void main(String[] args) {
+		Palindrome_Number out = new Palindrome_Number();
+		Solution s = out.new Solution();
+
+		System.out.println(s.isPalindrome(12321));
+		System.out.println(s.isPalindrome(Integer.MAX_VALUE));
+	}
+
+	public class Solution {
+		public boolean isPalindrome(int x) {
+			if(x < 0) {
+				return false;
+			}
+
+			long rev = 0;
+
+			int y = x;
+			while(y > 0) {
+				int remainder = y % 10;
+				y /= 10;
+
+				rev = rev * 10 + remainder;
+			}
+
+			if(rev > Integer.MAX_VALUE) {
+				return false;
+			}
+
+			return ((int) rev) == x;
+		}
+	}
+
+	public class Solution2 {
+	    public boolean isPalindrome(int x) {
+	        if (x < 0) {
+	            return false;
+	        }
+
+	        int xorig = x;
+	        int rev = 0;
+	        while(x > 0) {
+	            rev = rev * 10 + x % 10;
+	            x /= 10;
+	        }
+
+	        return rev == xorig;
+	    }
+	}
+}
