@@ -9,4 +9,6 @@
 
 [Harsh Ranjan](https://github.com/harshranjan63)
 
+[Max Muller](https://github.com/mmvonnseek)
+
 <!-- prettier-ignore-end -->
