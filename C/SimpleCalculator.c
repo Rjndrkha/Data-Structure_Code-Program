@@ -33,7 +33,7 @@ int main(void) {
     }
     printf("%.2f",result);
     }
-  //if user enter incorrect method system will print this statement
+
   else
     printf("Invalid operator \n");
   

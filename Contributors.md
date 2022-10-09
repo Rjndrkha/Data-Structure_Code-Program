@@ -9,4 +9,6 @@
 
 [Harsh Ranjan](https://github.com/harshranjan63)
 
+[Khushi Shroff](https://github.com/Ks103)
+
 <!-- prettier-ignore-end -->
