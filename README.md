@@ -2,7 +2,8 @@
 
 <h1>
 <p align="center" ><b>
-❤ THIS REPO NOW OPENED ❤
+❤ THIS REPO NOW OPENED ❤<br>
+❤ PLEASE READ PROCEDURE AND RULES BELOW❤
 </p></b>
 </h1>
 
