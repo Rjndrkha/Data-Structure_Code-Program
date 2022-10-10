@@ -1,0 +1,16 @@
+---
+
+- hosts: ansible
+
+  tasks:
+  - name: Create Docker Image
+    command: docker build -t regapp:latest .
+    args:
+     chdir: /opt/docker1
+
+  - name: Create image with dockerhub id i.e tag
+    command: docker tag regapp:latest 07shree/regapp:latest
+
+  - name: push docker image on hub.docker.com
+    command: docker push 07shree/regapp:latest
+
