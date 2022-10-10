@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100vw;
+    height: 48vw;
+    /* background: red url('bgimg.jpg') no-repeat fixed 0px 0px; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modalForm{
+    width: 400px;
+    min-height: 60vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0,0, 0, 0.15)0px 2px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modalForm h2{
+    margin-top: 7px;
+    width: 50%;
+    border-radius: 50px;
+    text-align: center;
+}
+.actionBtns{
+    width: 80%;
+    background-color: royalblue;
+    margin:1em 2em 2em 2em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: rgba(0,0,0,0.09) 0px 3px 12px;
+}
+.actionBtn{
+    padding: 1em;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color:transparent;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.moveBtn{
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    margin:2.2px 2px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    transform: translateX(0);
+    transition: all 0.2s ease-in-out;
+}
+.rigthBtn{
+    transform: translateX(98%);
+    transition: all 0.2s ease-in-out;
+}
+.inputGroup{
+    width: 300px;
+    margin: 0.8em 0em;
+    background-color: aqua;
+    border-radius: 50px;
+    box-shadow: rgba(0,0,0,0.12) 0px 1px 3px,rgba(0, 0, 0, 0.1);
+    background-color: rgb(245, 245, 245);
+    font-weight: 500;
+}
+.inputGroup input{
+    width: 100%;
+    padding: 1em 1.5em;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+}
+.inputGroup input:focus{
+  outline: none;
+}
+.submitBtn{
+    width: 150px;
+    padding: 1em;
+    margin: 1.2em 0;
+    border-radius: 40px;
+    border: 2px solid rgb(142, 142, 228);
+    outline: none;
+    background-color: rgb(247, 244, 244);
+    box-shadow: rgba(0,0,0,0.12) 0px 1px 3px,rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.8em;
+    transition: all 0.3s ease-in-out;
+}
+.submitBtn:hover{
+    background-color: royalblue;
+    color: white;
+    border: 2px solid rgb(200, 200, 89);
+    transition: all 0.3s ease-in-out;
+}
+.member{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+.member a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+}
+.form{
+    display: none;
+}
+.userForm{
+    display: block;
+}
+.adminForm{
+    display: block;
+}
