@@ -56,6 +56,5 @@
 ---
 
 ## 🔰 REWARD
-#### ABOUT REWARD WILL BE UPDATED SOON ❤
 
-
+<img alt="HF DONE" src="https://raw.githubusercontent.com/fineanmol/Hacktoberfest2022/master/scripts/Event_Completed_.png">
