@@ -1,0 +1,59 @@
+Flight No      : G8-101
+Departure time : 05:50
+Arrival time   : 08:00
+Departure place: New Delhi
+Arrival place  : Kolkata
+
+Flight No      : UK-975
+Departure time : 05:45
+Arrival time   : 07:55
+Departure place: New Delhi
+Arrival place  : Mumbai
+
+Flight No      : 6E-5003
+Departure time : 08:55
+Arrival time   : 10:30
+Departure place: New Delhi
+Arrival place  : Patna
+
+Flight No      : 6E-2178
+Departure time : 05:50
+Arrival time   : 07:55
+Departure place: New Delhi
+Arrival place  : Bhubaneswar
+
+Flight No      : SG-8263
+Departure time : 05:15
+Arrival time   : 06:05
+Departure place: New Delhi
+Arrival place  : Jaipur
+
+Flight No      : G8-2509
+Departure time : 06:00
+Arrival time   : 07:00
+Departure place: New Delhi
+Arrival place  : Lucknow
+
+Flight No      : AI-435
+Departure time : 05:55
+Arrival time   : 07:20
+Departure place: New Delhi
+Arrival place  : Bhopal
+
+Flight No      : SG-8207
+Departure time : 18:55
+Arrival time   : 21:45
+Departure place: New Delhi
+Arrival place  : Chennai
+
+Flight No      : G8-7549
+Departure time : 15:30
+Arrival time   : 20:15
+Departure place: New Delhi
+Arrival place  : Bengaluru
+
+Flight No      : G8-719
+Departure time : 16:40
+Arrival time   : 18:20
+Departure place: New Delhi
+Arrival place  : Ahmedabad
