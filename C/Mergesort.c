@@ -1,56 +1,40 @@
 #include <stdio.h>
-
-#define size 50
-
-int a[size];
-int b[size];
-
-void merging(int low, int mid, int high) {
-  int h,i,j;//l2=j,i=i;l1=h
-   for(h = low, j = mid + 1, i = low; h <= mid && j <= high; i++) {
-      if(a[h] <= a[j])
-         b[i] = a[h++];
-      else
-         b[i] = a[j++];
-   }
-   
-   while(h <= mid)    
-      b[i++] = a[h++];
-
-   while(j <= high)   
-      b[i++] = a[j++];
-
-   for(i = low; i <= high; i++)
-      a[i] = b[i];
-}
-
-void Mergesort(int low, int high) {
-   int mid;
-   
-   if(low < high) {
-      mid = (low + high) / 2;
-      Mergesort(low, mid);
-      Mergesort(mid+1, high);
-      merging(low, mid, high);
-   } else { 
-      return;
-   }   
-}
-
-int main() { 
-   int i,n;
-   printf("Enter the size of array : ");
-   for(i=0;i<n;i++)
-   scanf("%d",&n);
-   printf("List before sorting\n");
-   
-   for(i = 0; i <n; i++)
-      printf("%d ", a[i]);
-
-   Mergesort(0,n-1);
-
-   printf("\nList after sorting\n");
-   
-   for(i = 0; i <n; i++)
-      printf("%d ", a[i]);
+int main()
+{
+    int n1,n2,n3;            //Array Size Declaration
+    int a[10000], b[10000], c[20000];
+    printf("Enter the size of first array: ");
+    scanf("%d",&n1);
+    printf("Enter the array elements: ");
+    for(int i = 0; i < n1; i++)      
+       scanf("%d", &a[i]);
+    printf("Enter the size of second array: ");
+        scanf("%d",&n2);
+    printf("Enter the array elements: ");
+    for(int i = 0; i < n2; i++)      
+       scanf("%d", &b[i]);
+    n3 = n1 + n2;
+    for(int i = 0; i < n1; i++)
+       c[i] = a[i];
+    for(int i = 0; i < n2; i++)     
+        c[i + n1] = b[i];
+        
+    printf("The merged array: ");
+    for(int i = 0; i < n3; i++)
+        printf("%d ", c[i]);        //Print the merged array
+    
+    printf("\nFinal array after sorting: ");
+    for(int i = 0; i < n3; i++){
+        int temp;
+        for(int j = i + 1; j < n3; j++) {
+            if(c[i] > c[j]) {
+                temp = c[i];
+                c[i] = c[j];
+                c[j] = temp;
+            }
+        }
+    }   
+    for(int i = 0; i < n3 ; i++)       //Print the sorted Array 
+        printf(" %d ",c[i]);
+    return 0;   
 }
