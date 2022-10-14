@@ -1,0 +1,50 @@
+G8-101
+05:50
+08:00
+New Delhi
+Kolkata
+UK-975
+05:45
+07:55
+New Delhi
+Mumbai
+6E-5003
+08:55
+10:30
+New Delhi
+Patna
+6E-2178
+05:50
+07:55
+New Delhi
+Bhubaneswar
+SG-8263
+05:15
+06:05
+New Delhi
+Jaipur
+G8-2509
+06:00
+07:00
+New Delhi
+Lucknow
+AI-435
+05:55
+07:20
+New Delhi
+Bhopal
+SG-8207
+18:55
+21:45
+New Delhi
+Chennai
+G8-7549
+15:30
+20:15
+New Delhi
+Bengaluru
+G8-719
+16:40
+18:20
+New Delhi
+Ahmedabad

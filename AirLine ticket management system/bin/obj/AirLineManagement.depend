@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1490211976 source:e:\cse-115\my codes\airlinemanagement\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
