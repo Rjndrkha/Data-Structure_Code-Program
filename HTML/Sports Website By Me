@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SPORTS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Football</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cricket</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ASIA CUP 2022
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">TEAMS</a></li>
+                <li><a class="dropdown-item" href="#">FIXTURES</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">POINTS TABLE</a></li>
+                <li><a class="dropdown-item" href="#">STATS</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="w-100" src="2.jpg" alt="Image" />
+        <div
+          class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+        >
+          <h2
+            class="display-2 m-0 mt-2 mt-md-4 text-white font-weight-bold text-capitalize"
+          >
+            FOR THE LOVE OF THE GAME
+          </h2>
+          <a
+            href=""
+            class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5"
+            >Join Us Now</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid my-5">
+      <div class="row">
+        <div class="col-lg-4 p-0">
+          <div
+            class="d-flex align-items-center bg-secondary text-white px-5"
+            style="min-height: 300px"
+          >
+            <i class="flaticon-training display-3 text-primary mr-3"></i>
+            <div class="">
+              <h2 class="text-white mb-3">Progression</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+                suscipit orci velit id libero
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 p-0">
+          <div
+            class="d-flex align-items-center bg-primary text-white px-5"
+            style="min-height: 300px"
+          >
+            <i class="flaticon-weightlifting display-3 text-secondary mr-3"></i>
+            <div class="">
+              <h2 class="text-white mb-3">Workout</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+                suscipit orci velit id libero
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 p-0">
+          <div
+            class="d-flex align-items-center bg-secondary text-white px-5"
+            style="min-height: 300px"
+          >
+            <i class="flaticon-treadmill display-3 text-primary mr-3"></i>
+            <div class="">
+              <h2 class="text-white mb-3">Nutrition</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+                suscipit orci velit id libero
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider" style="user-select: auto" />
+    <br />
+    <br />
+    <div class="container">
+      <div class="row featurette" style="user-select: auto">
+        <div class="col-md-7" style="user-select: auto">
+          <h2 class="featurette-heading" style="user-select: auto">
+            LEGEND IN THE MAKING
+          </h2>
+          <p class="lead" style="user-select: auto">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+            vero unde reiciendis atque, porro molestias cum beatae aliquam
+            magnam illo rerum aperiam doloremque praesentium impedit consectetur
+            accusantium vitae velit incidunt ut odit neque iste in! Sed culpa
+            labore totam odit molestiae odio harum voluptate a numquam possimus
+            molestias necessitatibus ipsum optio minima suscipit dolorum, alias
+            impedit dicta maiores. Quasi placeat facere autem, doloremque ex
+            soluta minus quod architecto exercitationem magnam vero tempore
+            incidunt. Magnam consequuntur velit officiis provident ab pariatur
+            molestias, necessitatibus placeat, possimus optio vitae sint
+            aspernatur dolore. Fugiat ut id laudantium, corporis expedita eum,
+            molestiae possimus magni eaque, inventore recusandae illo
+            temporibus. Esse saepe ipsam quis hic fugit perspiciatis deserunt
+            consectetur, officiis dignissimos sed est molestias vero eos!
+          </p>
+        </div>
+        <div class="col-md-5" style="user-select: auto">
+          <img
+            alt="500x500"
+            style="width: 500px; height: 500px; user-select: auto"
+            src="baber.jpg"
+            data-holder-rendered="true"
+          />
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <br />
+    <br />
+    <div class="container">
+      <div class="row featurette" style="user-select: auto">
+        <div class="col-md-7" style="user-select: auto">
+          <h2 class="featurette-heading" style="user-select: auto">
+            NOT A GOOD START TO THE SEASON
+          </h2>
+          <p class="lead" style="user-select: auto">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+            vero unde reiciendis atque, porro molestias cum beatae aliquam
+            magnam illo rerum aperiam doloremque praesentium impedit consectetur
+            accusantium vitae velit incidunt ut odit neque iste in! Sed culpa
+            labore totam odit molestiae odio harum voluptate a numquam possimus
+            molestias necessitatibus ipsum optio minima suscipit dolorum, alias
+            impedit dicta maiores. Quasi placeat facere autem, doloremque ex
+            soluta minus quod architecto exercitationem magnam vero tempore
+            incidunt. Magnam consequuntur velit officiis provident ab pariatur
+            molestias, necessitatibus placeat, possimus optio vitae sint
+            aspernatur dolore. Fugiat ut id laudantium, corporis expedita eum,
+            molestiae possimus magni eaque, inventore recusandae illo
+            temporibus. Esse saepe ipsam quis hic fugit perspiciatis deserunt
+            consectetur, officiis dignissimos sed est molestias vero eos!
+          </p>
+        </div>
+        <div class="col-md-5" style="user-select: auto">
+          <img
+            alt="500x500"
+            style="width: 500px; height: 500px; user-select: auto"
+            src="ronaldo.jpg"
+            data-holder-rendered="true"
+          />
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <section>
+      <video src="vedio/foot.mp4" width="33%" controls></video>
+      <video src="vedio/pakafg.mp4" width="33%" controls></video>
+      <video src="vedio/foot.mp4" width="33%" controls></video>
+    </section>
+
+    
+
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"
+  ></script>
+</html>
