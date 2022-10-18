@@ -1,0 +1,143 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+struct dlnode{
+struct dlnode *left;
+int data;
+struct dlnode *right;
+};
+
+typedef struct dlnode *dlptr;
+
+void insert(dlptr &p,int k)
+{
+    dlptr temp=new(dlnode);
+    temp->left=NULL;
+    temp->data=k;
+    temp->right=NULL;
+    if(p==NULL)
+    {
+        p=temp;
+    }
+    else{
+        dlptr t=p;
+        while(t->right!=NULL)
+        {
+            t=t->right;
+        }
+        t->right=temp;
+        temp->left=t;
+    }
+}
+void addfront(dlptr &p,int k)
+{
+    dlptr temp=new(dlnode);
+    temp->left=NULL;
+    temp->data=k;
+    temp->right=NULL;
+    if(p==NULL){p=temp;return ;}
+    p->left=temp;
+    temp->right=p;
+    p=temp;
+}
+void print(dlptr P)
+{
+    if(P==NULL)
+        {cout<<"List empty"<<endl;}
+    else
+    {
+        while(P!=NULL)
+        {
+            cout<<P->data<<" ";
+            P=P->right;
+        }
+        cout<<endl;
+    }
+}
+
+void insertion(dlptr &p,int k)
+{
+    dlptr t1=new(dlnode);
+    t1->data=k;
+    t1->right=NULL;
+    t1->left=NULL;
+    if(p==NULL)
+    {
+        p=t1;
+    }
+    else{
+    dlptr t=p,prev;
+    int flag=0;
+    while(t!=NULL && t->data<=k)
+    {
+        prev=t;
+        t=t->right;flag=1;
+    }
+    if(flag==0){addfront(p,k);}
+    else{
+     if(prev->right==NULL){t1->right=NULL;}
+     else{prev->right->left=t1;t1->right=prev->right;}
+     t1->left=prev;
+     prev->right=t1;
+    }
+}
+}
+
+int twosum(dlptr l,dlptr h,int k,dlptr c)
+{
+    int a;
+   while(l!=h && l->left!=h)
+   {
+       if(l==c){l=l->right;}
+       if(h==c){h=h->left;}
+       a=l->data+h->data;
+       if(a<k)
+        l=l->right;
+       if(a>k)
+        h=h->left;
+       if(a==k)
+       {
+           cout<<"( "<<c->data<<" , "<<l->data<<" , "<<h->data<<" )"<<endl;
+           l=l->right;
+           h=h->left;
+       }
+
+   }
+}
+void threesum(dlptr c,dlptr h,int k)
+{
+    dlptr t=c;
+    while(c!=NULL)
+    {
+        twosum(t,h,k-(2*c->data),c);
+        c=c->right;
+    }
+
+}
+int main()
+{
+    dlptr l=NULL;
+    int n;
+    cin>>n;
+    while(n!=-1)
+    {
+        insert(l,n);
+        cin>>n;
+    }
+    dlptr t=l,t1=NULL;
+    while(t!=NULL)
+    {
+        insertion(t1,t->data);
+        t=t->right;
+    }
+    t=t1;
+    while(t->right!=NULL)
+    {
+        t=t->right;
+    }
+    int k;
+    cin>>k;
+    //twosum(t1,t,k);
+    threesum(t1,t,k);
+}
+
