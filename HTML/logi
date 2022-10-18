@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<style>
+input[type=text], input[type=password] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  width: auto;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: red;
+}
+</style>
+</head>
+<body style="background : linear-gradient(to bottom right, black, White, black)" text= white>
+
+<H1>E-Library</H1>
+
+<br>
+<br>
+<br>
+<div>
+  
+  <form>
+  <br><br>
+
+    <div class="container">
+      
+      <label for="uname"><b>Email<br></b></label>
+      <center>
+      <input type="text" placeholder="Enter Email" name="email" style="width: 1500px;" required>
+      </center>
+      <br>
+
+      <label for="psw"><b>Password<br></b></label>
+      <center>
+      <input type="password" placeholder="Enter Password" name="psw" style="width: 1500px;" required>
+      </center>
+      <br>
+       
+      <center>
+      <button type="submit" style="padding: 10px 18px;">Login</button>
+      </center>
+    </div>
+      <br>
+      <span class="psw"><a href="#">Forgot password?</a></span>
+    </div>
+    <br><br><br><br>
+      <H4 align="center">Already Have an Account?</H4>
+      <center>  
+      <button type="submit" style="padding: 10px 18px; background-color:blue;">Sign Up</button>
+      </center>
+
+    </div>
+
+    <br>
+    <center>
+    <div class="container">
+      <button type="button" class="cancelbtn">Cancel</button>
+    </div>
+    </center>
+  </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</body>
+</html>
