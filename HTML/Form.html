@@ -1,0 +1,210 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Creating a grid</title>
+	<style type="text/css">
+		div{
+			font-family: 'Courier New', Courier, monospace;
+			font-size: large;
+		}
+		#navbar{
+			border: 1px solid black;
+			display: flex;
+			background-color: #DD3030;
+		}
+		#nav-logo{
+			border: 1px solid black;
+			width: 85px;
+		}
+		#nav-menu{
+			display: flex;
+			flex-direction: row-reverse;
+			width: 90%;
+		}
+		#menu-bar{
+			display: flex;
+		}
+		.menu-item{
+			margin: 0px 0px 0px 15px;
+			padding: 5px 0px;
+			width: 85px;
+		}
+		.menu-text{
+			text-align: center;
+			
+			}
+		#banner{
+			display: flex;
+			height: 400px;
+			align-items: center;
+			justify-content: center;
+		}
+		#about-us{
+			text-align: center;
+		}
+		#about-us-heading{
+			border: 1px solid black;
+			background-color: #DD3030;
+			height: 80px;
+		} 
+		#about-us-content{
+			padding: 20px;
+			background-color: #F2B0B0;
+		}
+		#gallery{
+			text-align: center;
+		}
+		#gallery-heading{
+			border: 1px solid black;
+			height: 80px;
+		}
+		#gallery-images{
+			display: flex;
+			justify-content: center;
+			background-color: #F2B0B0;
+		}
+		.gallery-image-item{
+			height: 200px;
+			width: 200px;
+			margin: 5px 30px;
+			background-color: #F2B0B0;
+		}
+		#contact-us-heading{
+			border: 1px solid black;
+			text-align: center;
+			background-color: #DD3030;
+			height: 80px;
+		}
+		#contact-us-form-container{
+			display: flex;
+			height: auto;
+			justify-content: center;
+		}
+		#contact-us-form{
+			border: 1px solid black;
+			width: 40%;
+			background-color: #F2B0B0;
+			padding: 10px;
+		}
+		.button {
+        background-color: #5FCF0A;
+		border-radius: 10px;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.6s;
+        cursor: pointer;
+		width: 85px;
+		height: 65px;
+		font-size: large;
+		font-family: 'Courier New', Courier, monospace;
+
+		}
+	    .button:hover {
+        background-color: #DD3030;
+		color: white;
+		}
+    </style>
+</head>
+<body style="background-color: #5FCF0A;">
+<div id="navbar">
+	<div id="nav-logo">
+		<img src="https://img.icons8.com/material-outlined/80/000000/naruto-sign.png" class="center"/>
+	</div>	
+	<div id="nav-menu">
+		<div id="menu-bar">
+		<div class="menu-item">
+			<button class="button button1">Home</button>
+		</div>
+		<div class="menu-item">
+			<button class="button button2">Shop</button>
+	    </div>
+		<div class="menu-item">
+			<button class="button button3">Info</button>
+		</div>
+		<div class="menu-item">
+			<button class="button button4">Contact Us</button>
+		</div>
+		<div class="menu-item">
+			<button class="button button5">About Us</button>
+		</div>
+		</div>
+	</div>
+</div>
+<div id="banner">
+	<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/538a50bc-ccf9-4fd7-902c-69658ee473a8/d9q7kir-d6de11df-8f4f-4df9-a888-8756bb6e50da.png/v1/fill/w_1192,h_670,q_70,strp/__naruto___sasuke___sakura__kid__minimalist_design_by_joosherino_d9q7kir-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQ0MCIsInBhdGgiOiJcL2ZcLzUzOGE1MGJjLWNjZjktNGZkNy05MDJjLTY5NjU4ZWU0NzNhOFwvZDlxN2tpci1kNmRlMTFkZi04ZjRmLTRkZjktYTg4OC04NzU2YmI2ZTUwZGEucG5nIiwid2lkdGgiOiI8PTI1NjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ohCL80_lQUXzyA-SYwVmWwybiqAOLgJiJ6e1QvAptWE" alt="ABC" width="1350px"
+			height="400px"></img>
+</div>
+<div id="about-us">
+	<div id="about-us-heading">
+		<h2>ABOUT US</h2>
+	</div>
+	<div id="about-us-content" style="font-family: 'Times New Roman', Times, serif;">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Viverra orci sagittis eu volutpat odio facilisis. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Bibendum est ultricies integer quis auctor elit sed vulputate. Risus ultricies tristique nulla aliquet enim tortor at auctor urna. Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor. Sit amet facilisis magna etiam tempor. A lacus vestibulum sed arcu. Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Aliquet porttitor lacus luctus accumsan. Fringilla ut morbi tincidunt augue interdum velit euismod in.</p>
+			<p>
+				Ultrices dui sapien eget mi proin sed libero enim sed. Fermentum iaculis eu non diam phasellus vestibulum. Justo donec enim diam vulputate ut. Nisl tincidunt eget nullam non nisi est sit amet facilisis. Fringilla urna porttitor rhoncus dolor. Tincidunt augue interdum velit euismod. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Sit amet mattis vulputate enim. Est ultricies integer quis auctor elit sed vulputate mi. Eget felis eget nunc lobortis. Ultrices sagittis orci a scelerisque. Quam vulputate dignissim suspendisse in est. Facilisi nullam vehicula ipsum a. Sem viverra aliquet eget sit amet. Risus viverra adipiscing at in tellus integer. Orci a scelerisque purus semper eget duis at. Amet risus nullam eget felis.
+			</p>
+			<p>
+				Diam vulputate ut pharetra sit amet. Ipsum faucibus vitae aliquet nec ullamcorper. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. In egestas erat imperdiet sed. Justo eget magna fermentum iaculis eu non. Massa massa ultricies mi quis. Augue eget arcu dictum varius duis. Eget aliquet nibh praesent tristique magna sit amet. Iaculis urna id volutpat lacus laoreet non curabitur gravida arcu. Varius duis at consectetur lorem donec. Mauris pellentesque pulvinar pellentesque habitant. Id diam vel quam elementum pulvinar.
+			</p>
+			<p>
+				Mauris in aliquam sem fringilla ut morbi tincidunt augue interdum. Nibh sed pulvinar proin gravida hendrerit. Risus pretium quam vulputate dignissim. Sagittis vitae et leo duis ut. A pellentesque sit amet porttitor. Congue mauris rhoncus aenean vel elit scelerisque mauris. Elementum tempus egestas sed sed risus pretium quam. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Dui sapien eget mi proin sed libero enim. Tristique senectus et netus et. Diam sollicitudin tempor id eu.
+			</p>
+	</div>
+</div>
+<div id="gallery">
+	<div id="gallery-heading" style="background: #DD3030;">
+		<h2>Gallery</h2>
+	</div>
+	<div id="gallery-images">
+		<div class="gallery-image-item">
+			<img src="https://cdn.pixabay.com/photo/2021/07/03/10/54/naruto-6383640_960_720.jpg" alt="gaara" width="200px"
+			height="200px"></img>
+		</div>
+		<div class="gallery-image-item">
+			<img src="https://cdn.pixabay.com/photo/2020/12/09/18/40/naruto-5818254_960_720.png" alt="naruto" width="200px"
+			height="200px"></img>
+		</div>
+		<div class="gallery-image-item">
+			<img src="https://cdn.pixabay.com/photo/2021/05/31/05/55/naruto-6297820_960_720.jpg" alt="sasuke" width="200px"
+			height="200px"></img>
+		</div>
+		<div class="gallery-image-item">
+			<img src="https://cdn.pixabay.com/photo/2021/05/16/07/25/naruto-6257396_960_720.jpg" alt="hinata" width="200px"
+			height="200px"></img>
+		</div>
+		<div class="gallery-image-item">
+			<img src="https://cdn.pixabay.com/photo/2021/06/04/07/05/naruto-6309017_960_720.jpg" alt="sakura" width="200px"
+			height="200px"></img>
+		</div>
+	</div>
+</div>
+<div id="contact-us">
+	<div id="contact-us-heading">
+		<h2>Reach out to us !</h2>
+	</div>
+	<div id="contact-us-form-container">
+		<div id="contact-us-form">
+			<form>
+				<label for="name">First Name :</label>
+				<input type="text" id="name" name="name" value="John"><br>
+				<label for="name">Last Name Name :</label>
+				<input type="text" id="name" name="name" value="Doe"><br>
+				<label for="mail">Email-ID :</label>
+				<input type="email" id="mail" name="mail" value="abc@gmail.com"><br>
+				<label for="dob">Date Of Birth :</label>
+				<input type="date" id="dob" name="dob"><br>
+				<p>Select your gender :</p>
+				<input type="radio" id="male" name="Gender" value="male">
+				<label for="male">Male</label><br>
+				<input type="radio" id="female" name="Gender" value="female">
+				<label for="female">Female</label><br>
+				<input type="radio" id="others" name="Gender" value="others">
+				<label for="others">Others</label><br>
+				<input type="submit">
+			  </form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
