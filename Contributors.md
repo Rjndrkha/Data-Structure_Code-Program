@@ -11,4 +11,6 @@
 
 [Max Muller](https://github.com/mmvonnseek)
 
+[Birendra Bikram](https://github.com/biren-dra)
+
 <!-- prettier-ignore-end -->
