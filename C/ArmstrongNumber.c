@@ -1,19 +1,21 @@
 #include<stdio.h>  
  int main()    
 {    
-int n,r,sum=0,temp;    
+int n,r,res=0,temp;    
 printf("enter the number=");    
 scanf("%d",&n);    
 temp=n;    
-while(n>0)    
+while(temp != 0)    
 {    
-r=n%10;    
-sum=sum+(r*r*r);    
-n=n/10;    
+ // remainder contains the last digit
+r=temp%10;    
+res += r*r*r;   
+ // removing last digit from the orignal number
+n/=10;    
 }    
-if(temp==sum)    
-printf("armstrong  number ");    
+if(temp==res)    
+printf("armstrong  number ", n);    
 else    
-printf("not armstrong number");    
+printf("not armstrong number", n);    
 return 0;  
 }   
